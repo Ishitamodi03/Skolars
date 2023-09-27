@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(22skolar.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color:#fff;
+}
+
+.picture{
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.picture .image{
+    margin-top: 50px;
+    height:190px;
+    width:250px;
+    border:6px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow:hidden;
+    cursor: pointer;
+}
+
+.picture .image .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.picture .image:hover img{
+    transform: scale(1.1);
+}
+
+/* .picture .popup-image{
+    position: fixed;
+    top:0; left:0;
+    background: rgba(0,0,0,0.9);
+    height: 100%;
+    width:100%;
+    z-index: 100;
+    display:none;
+} 
+
+.picture .pop-image span{
+    position: absolute;
+    top:0; right:10px;
+    font-size: 40px;
+    font-weight: border;
+    color: #fff;
+    cursor:pointer;
+    z-index:100;
+}
+
+.picture .popup-image img{
+    position: absolute;
+    top: 50%; left:50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width:700px;
+    object-fit:cover;
+}
+
+@media (max-width:768px){
+    .picture .popup-image img{
+        width:95%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
